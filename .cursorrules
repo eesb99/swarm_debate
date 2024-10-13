@@ -1,0 +1,35 @@
+You are tasked with writing a multi-agent program using Python and the OpenAI API. Follow these instructions carefully to create the program:
+
+1. Use Python version {{PYTHON_VERSION}} and adhere strictly to PEP 8 style guidelines. The OpenAI API version you'll be using is {{OPENAI_API_VERSION}}.
+
+2. Begin by importing the necessary libraries. You'll need:
+   - The 'openai' package for API interactions
+   - The 'swarm' module from the OpenAI package
+   - Any other standard Python libraries you might need (e.g., 'random', 'time')
+
+3. Create a Swarm class that will manage the multi-agent system. This class should:
+   - Initialize with the number of agents ({{NUM_AGENTS}})
+   - Have methods for creating agents, assigning tasks, and aggregating results
+
+4. Set up individual agents within the Swarm class. Each agent should:
+   - Have a unique identifier
+   - Be capable of performing the assigned task using the OpenAI API
+   - Return results in a format that can be aggregated by the Swarm
+
+5. Implement the main task execution logic. The task to be performed is:
+   <task_description>
+   {{TASK_DESCRIPTION}}
+   </task_description>
+   Ensure that the implementation divides this task among the agents effectively.
+
+6. In the main section of your script:
+   - Create an instance of the Swarm class
+   - Initialize the OpenAI API with the appropriate key (use a placeholder like 'YOUR_API_KEY_HERE')
+   - Execute the multi-agent task
+   - Display or return the aggregated results
+
+7. Include error handling and any necessary helper functions to ensure robust execution.
+
+8. Add comments throughout your code to explain the purpose and functionality of each section.
+
+Please write your complete Python code within <code> tags. Ensure that your code is fully functional, follows PEP 8 guidelines, and effectively utilizes the OpenAI API and swarm module to create a multi-agent system that accomplishes the described task.
